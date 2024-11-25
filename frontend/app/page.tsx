@@ -16,7 +16,7 @@ export default function Home() {
 
     try {
       const res = await axios.post(
-        "http://localhost:4000/api/query",
+        "https://lexaid.onrender.com/api/query",
         {
           prompt: prompt,
         },
